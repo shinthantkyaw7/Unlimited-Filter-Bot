@@ -57,7 +57,7 @@ Delivery နဲ့ ပါဆယ်ပိုပေးလိုက်မယ်။ 
 
     ABOUT_MSG = """⭕️<b>My Name :Shin Thant Kyaw</b>
 
-⭕️<b>Creater :</b> @TroJanzHEX    
+⭕️<b>Creater :</b> @Battlelorian    
 
 ⭕️<b>Language :</b> <code>Python3</code>
 
