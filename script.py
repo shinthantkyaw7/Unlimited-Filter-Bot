@@ -1,67 +1,66 @@
-class script(object):
+class Script(object):
 
+    START_MSG = """<b>မင်္ဂလာပါ မိတ်ဆွေ {},
 
-    START_MSG = """ <b> ဟယ်လို {} 
-
-ဘာလာရှာတာလဲမိတ်ဆွေ
+ဘာလာရှာတာပါလဲ
 
 လိုချင်တာပြောနော်
 
-Delivery နဲ့ ပါဆယ်ပိုပေးလိုက်မယ်။ အိုကေ လား? 😂😂
+Delivery နဲ့ ပါဆယ်ပိုပေးလိုက်မယ်။ Ok လား? 😂😂
 
-@Channel_X_Movies <i>-Contact Me</i></b>"""
-
-
-    HELP_MSG = """<b>How to use the bot??</b>
-
-<i>
-* စီမံခန့်ခွဲသူအခွင့်အရေးဖြင့် သင့်အဖွဲသို ဘော့တ်ကို ထည့်ပါ။
-
-* သင်ချိတ်ဆက်လိုသော ချန်နယ်များသို ဘော့တ်ကို ထည့်ပါ။။ <b> အခွင့်အရေးအားလုံး admin ပေးပါ</b>!
-</i>
+@Channel_X_Movies <i>-Contact Me</i></b>
+"""
 
 
-<b>Bot Commands - Works in Group only</b>
-(You need to be a Auth User in order to use these commands)
-
-* <code>/add channelid</code>  -  Links channel to your group.
-or
-* <code>/add @channelusername</code> - Links channel to your group.
-
-<i>NOTE : You can get your channel ID from @MT_ID_BOT </i>
+    HELP_MSG = """
+<i>Add me as admin in your group and start filtering :)</i>
 
 
-* <code>/del channelid</code>  -  Delinks channel from group
-or
-* <code>/del @channelusername</code>  -  Delinks channel from group
+<b>Basic Commands;</b>
 
-<i>NOTE : You can get connected channel details by <code>/filterstats</code> </i>
-
-
-* <code>/delall</code>  -  Removes all connected channels and filters from group!
-
-<i>Note : Dont add command delete bots in group! Otherwise, delall command wont work</i>
+/start - Check if I'm alive!
+/help - Command help
+/about - Something about me!
 
 
-* <code>/filterstats</code>  -  Check connected channels and number of filters.
+<b>Filter Commands;</b>
+
+<code>/add name reply</code>  -  Add filter for name
+
+<code>/del name</code>  -  Delete filter
+
+<code>/delall</code>  -  Delete entire filters (Group Owner Only!)
+
+<code>/viewfilters</code>  -  List all filters in chat
 
 
+<b>Connection Commands;</b>
 
-No need add each filter again!
-Bot will automatically search for your files and give links to that!
+<code>/connect groupid</code>  -  Connect your group to my PM. You can also simply use,
+<code>/connect</code> in groups.
+
+<code>/connections</code>  -  Manage your connections.
 
 
-<b>© Shin Thant Kyaw </b>"""
+<b>Extras;</b>
+
+/status  -  Shows current status of your bot (Auth User Only)
+
+/id  -  Shows ID information
+
+<code>/info userid</code>  -  Shows User Information. Use <code>/info</code> as reply to some message for their details!
 
 
-    ABOUT_MSG = """⭕️<b>My Name : Shin Thant Kyaw </b>
-    
-⭕️<b>Creater :</b> @Channel_X_Movies
+<b>© Shin Thant Kyaw</b>
+"""
+
+
+    ABOUT_MSG = """⭕️<b>My Name :Shin Thant Kyaw</b>
+
+⭕️<b>Creater :</b> @TroJanzHEX    
 
 ⭕️<b>Language :</b> <code>Python3</code>
 
 ⭕️<b>Library :</b> <a href='https://docs.pyrogram.org/'>Pyrogram 1.0.7</a> 
-
-⭕️<b>Tutorial Video :</b> <a href='https://t.me/+XZpJfRc0kDkxZmJl'>Video Link</a> 
 
 """
